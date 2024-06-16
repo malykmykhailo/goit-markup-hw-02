@@ -1,0 +1,7 @@
+.test-link {
+    color: black;
+}
+.test-link:hover,
+.test-link:focus {
+    color: tomato;
+}
