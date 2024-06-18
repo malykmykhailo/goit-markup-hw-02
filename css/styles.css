@@ -1,7 +1,19 @@
-.test-link {
-    color: black;
-}
-.test-link:hover,
-.test-link:focus {
-    color: tomato;
+/* колір основного фону #ffffff */
+/* другорядний колір фону #2F303A */
+/* додатковий колір фону #F5F4FA */
+/* основний колір тексту #757575 */
+/* другорядний колір тексту, заголовків #212121 */
+/* основний колір акценту #2196F3 */
+/* другорядний колір акценту #000000 */
+/* додатковий колір фону карточок #EEEEEE */
+
+:root {
+    --primary-bgc-color: #ffffff
+    --secondary-bgc-color: #2F303A
+    --add-bgc-color: #F5F4FA
+    --primary-text-color: #757575
+    --title-text-color: #212121
+    --primary-accent-color: #2196F3
+    --secondary-accent-color: #000000
+    --card-accent-color: #EEEEEE
 }
