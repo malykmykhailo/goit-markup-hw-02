@@ -3,6 +3,7 @@
 /* додатковий колір фону #F5F4FA */
 /* основний колір тексту #757575 */
 /* другорядний колір тексту, заголовків #212121 */
+/* додатковий колір тексту #ffffff */
 /* основний колір акценту #2196F3 */
 /* другорядний колір акценту #000000 */
 /* додатковий колір фону карточок #EEEEEE */
@@ -13,6 +14,7 @@
     --add-bgc-color: #F5F4FA;
     --primary-text-color: #757575;
     --title-text-color: #212121;
+    --add-text-color: #ffffff;
     --primary-accent-color: #2196F3;
     --secondary-accent-color: #000000;
     --card-accent-color: #EEEEEE;
@@ -27,4 +29,39 @@ body {
 }
 .logo-web {
     color: var(--primary-accent-color);
+}
+
+/* Site nav. Шапка сайту */
+
+.site-nav .link {
+    color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--primary-accent-color);
+}
+.site-nav .link.current {
+    color: var(--primary-accent-color);
+}
+
+.contact .link {
+    color: var(--primary-text-color);
+}
+.contact .link:hover,
+.contact .link:focus,
+.contact .number:hover {
+    color: var(--primary-accent-color);
+}
+
+/* Hero */
+
+.hero {
+    background-color: var(--secondary-bgc-color);
+}
+.hero-title {
+    color: var(--add-text-color);
+}
+.hero-button {
+    color: var(--add-text-color);
+    background-color: var(--primary-accent-color);
 }
