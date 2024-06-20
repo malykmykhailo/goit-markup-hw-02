@@ -7,6 +7,7 @@
 /* основний колір акценту #2196F3 */
 /* другорядний колір акценту #000000 */
 /* додатковий колір фону карточок #EEEEEE */
+/* колір футера rgba(255, 255, 255, 0.6) */
 
 :root {
     --primary-bgc-color: #ffffff;
@@ -18,6 +19,7 @@
     --primary-accent-color: #2196F3;
     --secondary-accent-color: #000000;
     --card-accent-color: #EEEEEE;
+    --footer-color: rgba(255, 255, 255, 0.6)
 }
 
 body {
@@ -64,4 +66,44 @@ body {
 .hero-button {
     color: var(--add-text-color);
     background-color: var(--primary-accent-color);
+}
+
+/* Особливості */
+
+.section .title {
+    color: var(--title-text-color);
+}
+
+/* Чим ми займаємося */
+
+.section .features-list {
+    color: var(--title-text-color);
+}
+
+/* Наша команда */
+
+.team .team-title {
+    color: var(--title-text-color);
+}
+.team .title {
+    color: var(--title-text-color);
+}
+.team {
+    background-color: var(--add-bgc-color);
+}
+
+/* Футер */
+
+footer {
+    color: var(--footer-color);
+    background-color: var(--secondary-bgc-color);
+}
+footer .city {
+    color: var(--add-text-color);
+}
+footer .logo {
+    color: var(--add-text-color);
+}
+footer .link {
+    color: var(--footer-color);
 }
