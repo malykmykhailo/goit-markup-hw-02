@@ -107,3 +107,25 @@ footer .logo {
 footer .link {
     color: var(--footer-color);
 }
+
+/* Сторінка Портфоліо */
+/* Фільтри */
+
+.filter .filter-button {
+    color: var(--title-text-color);
+    background-color: var(--add-bgc-color);
+}
+.filter .filter-button:hover,
+.filter .filter-button:focus {
+    color: var(--add-text-color);
+    background-color: var(--primary-accent-color);
+}
+
+/* Приклади робіт */
+
+.project a {
+    color: var(--primary-text-color);
+}
+.project .title {
+    color: var(--title-text-color);
+}
