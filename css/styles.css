@@ -37,6 +37,7 @@ body {
     font-size: 26px;
     font-weight: 700;
     line-height: 1.17;
+    text-decoration: none;
 }
 .logo-web {
     color: var(--primary-accent-color);
@@ -51,7 +52,10 @@ body {
     font-weight: 500;
     line-height: 1.17;
     letter-spacing: 0.02em;
-
+    text-decoration: none;
+}
+.site-nav.list {
+    list-style: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -68,6 +72,10 @@ body {
     font-weight: 500;
     line-height: 1.17;
     letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.contact.list {
+    list-style: none;
 }
 .contact .link:hover,
 .contact .link:focus,
@@ -94,6 +102,7 @@ body {
     color: var(--add-text-color);
     background-color: var(--primary-accent-color);
 
+    font-family: inherit;
     font-size: 16px;
     font-weight: 700;
     line-height: 1.88;
@@ -115,6 +124,9 @@ body {
     line-height: 1.71;
     text-align: left;
 }
+.section-list {
+    list-style: none;
+}
 
 /* Чим ми займаємося */
 
@@ -125,6 +137,9 @@ body {
     font-weight: 700;
     line-height: 1.17;
     text-align: center;
+}
+.features-list {
+    list-style: none;
 }
 
 /* Наша команда */
@@ -153,6 +168,9 @@ body {
     line-height: 1.17;
     text-align: center;
 }
+.team-list {
+    list-style: none;
+}
 
 /* Футер */
 
@@ -176,6 +194,7 @@ footer .logo {
 }
 footer .link {
     color: var(--footer-color);
+    text-decoration: none;
 }
 
 /* Сторінка Портфоліо */
@@ -184,18 +203,41 @@ footer .link {
 .project .button {
     color: var(--title-text-color);
     background-color: var(--add-bgc-color);
+
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.63;
 }
 .project .button:hover,
 .project .button:focus {
     color: var(--add-text-color);
     background-color: var(--primary-accent-color);
 }
+.button-list {
+    list-style: none;
+}
 
 /* Приклади робіт */
 
 .project a {
     color: var(--primary-text-color);
+    text-decoration: none;
 }
 .project .title {
     color: var(--title-text-color);
+
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    text-align: left;
+}
+.project .paragraph {
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: left;
+}
+.project-list {
+    list-style: none;
 }
