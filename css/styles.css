@@ -111,12 +111,12 @@ footer .link {
 /* Сторінка Портфоліо */
 /* Фільтри */
 
-.filter .filter-button {
+.project .button {
     color: var(--title-text-color);
     background-color: var(--add-bgc-color);
 }
-.filter .filter-button:hover,
-.filter .filter-button:focus {
+.project .button:hover,
+.project .button:focus {
     color: var(--add-text-color);
     background-color: var(--primary-accent-color);
 }
